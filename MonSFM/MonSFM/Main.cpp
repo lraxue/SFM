@@ -60,7 +60,7 @@ int main()
 
 	Mat mMatches;
 	drawMatches(m1, keyPoints1, m2, keyPoints2, goodMatches, mMatches, Scalar::all(-1),
-		DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS);
+		DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
 
 	imshow("matches", mMatches);
 	waitKey(0);

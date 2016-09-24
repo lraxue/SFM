@@ -82,14 +82,19 @@
   <ItemGroup>
     <ClCompile Include="Detector.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ModelEstimation.cpp" />
+    <ClCompile Include="MonoView.cpp" />
     <ClCompile Include="ORBDetector.cpp" />
     <ClCompile Include="SiftDetector.cpp" />
+    <ClCompile Include="StereoView.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Detector.h" />
+    <ClInclude Include="ModelEstimation.h" />
     <ClInclude Include="MonoView.h" />
     <ClInclude Include="ORBDetector.h" />
     <ClInclude Include="SiftDetector.h" />
+    <ClInclude Include="StereoView.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

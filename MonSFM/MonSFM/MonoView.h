@@ -26,6 +26,8 @@ private:
 	cv::Mat img;
 	cv::Mat K;
 	cv::Mat rectifiedImg;
-	std::vector<cv::KeyPoint> matchedKeyPoints;
+	std::vector<cv::KeyPoint> keyPoints;
+	cv::Mat descriptor;
 };
+
 #endif
